@@ -53,7 +53,8 @@ Você pode visualizar o projeto funcionando diretamente pelo **GitHub Pages**:
 │   ├── firstPhase.json
 │   ├── groupA.json
 │   ├── groupB.json
-│   └── groupC.json
+|   ├── groupC.json
+│   └── highlights.json
 │
 ├── mix/
 │   └── [arquivos da biblioteca MixItUp]
@@ -81,11 +82,9 @@ Você pode visualizar o projeto funcionando diretamente pelo **GitHub Pages**:
 
 ## 🎥 Preview
 
-Veja o projeto em funcionamento no vídeo abaixo:
+#### 💻 Desktop
 
-[![Veja o vídeo do projeto](https://img.youtube.com/vi/SEU_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=SEU_VIDEO_ID)
-
-> Substitua `SEU_VIDEO_ID` pelo ID do vídeo do YouTube ou pelo link direto do vídeo.
+#### 📱 Mobile
 
 ---
 
