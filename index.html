@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <meta name="description" content="Acompanhe os resultados e a classificação do Campeonato Municipal Santa Cruz 2025. Fique por dentro de todas as informações e atualizações sobre o evento.">
+    <meta name="author" content="Organização Campeonato Municipal Santa Cruz">
+    <meta name="keywords" content="Campeonato Municipal, Santa Cruz, resultados, classificação, torneio, 2025, futebol, esporte">
+    <title>Campeonato Municipal 2025</title>
+
+    <!-- Open Graph / Redes Sociais -->
+    <meta property="og:title" content="Campeonato Municipal Santa Cruz 2025 - Resultados e Classificação">
+    <meta property="og:description" content="Confira todos os resultados, jogos, classificação e estatísticas do Campeonato Municipal Santa Cruz 2025.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="img/capa-campeonato.jpg">
+    <meta property="og:url" content="https://joaopaulo-io.github.io/campeonato-municipal-2025/"> 
+
+    <!-- Acessibilidade -->
+    <!-- Define suporte automático a tema claro/escuro -->
+    <meta name="color-scheme" content="light dark">
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Swiper (Carrossel) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+
+    <!-- Animações de Scroll (AOS) -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+    <!-- Favicon PNG -->
+    <link rel="icon" href="images/logo.png" type="image/png">
+
+    <!-- CSS Iconfont -->
+    <link rel="preload" href="/css/iconfont.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/iconfont.css"></noscript>
+
+    <!-- CSS principal -->
+    <link rel="preload" href="/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/style.css"></noscript>
+</head>
+<body class="">
+    <!-- Nav -->
+    <nav class="nav__main" aria-label="Menu principal do site">
+        <div class="container nav__container">
+
+            <!-- Logotipo do campeonato -->
+            <a href="#header" class="nav__logo">
+                <img src="images/logo.png" alt="Logo do Campeonato Municipal Santa Cruz 2025">
+            </a>
+
+            <!-- Menu principal -->
+            <ul class="nav__menu">
+                <li><a href="#header">Início</a></li>
+                <li><a href="#classification">Classificação</a></li>
+                <li><a href="#firstPhase">Primeira Fase</a></li>
+                <li><a href="#quarters">Quartas</a></li>
+                <li><a href="#semifinais">Semifinais</a></li>
+                <li><a href="#final">Final</a></li>
+            </ul>
+
+            <!-- Botões de ação do menu -->
+            <div class="nav__buttons">
+                <!-- Alternar tema -->
+                <button class="nav__theme-btn" aria-label="Alternar entre tema claro e escuro">
+                    <i class="i uil:moon" aria-hidden="true"></i>
+                </button>
+
+                <!-- Abrir menu mobile -->
+                <button class="nav__toggle-open"
+                aria-label="Abrir menu de navegação"
+                aria-controls="mobile-menu"
+                aria-haspopup="true">
+                  <i class="i uil:bars" aria-hidden="true"></i>
+                </button>
+
+                <!-- Fechar menu mobile -->
+                <button class="nav__toggle-close"
+                aria-label="Fechar menu de navegação"
+                hidden>
+                  <i class="i uil:times" aria-hidden="true"></i>
+                </button> 
+            </div>
+        </div>
+    </nav>
+    <!-- End of Nav -->
+
+    <!-- Header -->
+    <header id="header" class="header" aria-labelledby="titulo-site">
+        <div class="container header__container">
+            <!-- Logotipo -->
+            <article class="header__image" data-aos="fade-up" data-aos-delay="700">
+                <div>
+                    <img src="images/logo.png" alt="Logo do Campeonato Municipal Santa Cruz 2025">
+                </div>
+            </article>
+
+            <!-- Conteúdo principal do header -->
+            <article class="header__content" data-aos="fade-in">
+                <h1 id="titulo-site">Campeonato Municipal Santa Cruz - PE 2025</h1>
+
+                <p>
+                    Bem-vindo! Este é o seu espaço para consultar a classificação, resultados e demais 
+                    informações atualizadas sobre todos os jogos do campeonato.
+                </p>
+
+                <!-- Botões de chamada para ação (CTA) -->
+                <div class="header__cta">
+                    <a href="#highlights" class="btn primary">Destaques</a>
+                    <a href="#firstPhase" class="btn">Primeira Fase</a>
+                </div>
+            </article>
+
+            <!-- Redes sociais -->
+            <ul class="header__socials" aria-label="Redes sociais da Secretaria de Esportes">
+                <li>
+                    <a href="https://github.com/secretaria-esporte/campeonato-municipal-2025" target="_blank" aria-label="Repositório no GitHub">
+                        <i class="i uil:github-alt" aria-hidden="true"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://instagram.com/secretariade_esportestc" target="_blank" aria-label="Perfil no Instagram">
+                        <i class="i uil:instagram" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!-- End of Header -->
+
+    <!-- Highlights -->
+    <section class="highlights" id="highlights">
+        <div class="swiper">
+            <!-- Conteúdo inicial com título e descrição -->
+            <header class="highlights__content" data-aos="fade-in">
+                <h1>Jogos em destaque</h1>
+                <p>Fique por dentro dos confrontos de destaque do Campeonato Municipal 2025.</p>
+            </header>
+
+            <!-- Wrapper do Swiper -->
+            <div class="swiper-wrapper">
+
+                <!-- Slide 1 -->
+                <div class="swiper-slide">
+                    <article>
+                        <div class="highlights__image">
+                            <img class="card__logo" src="images/logo.png" alt="Logo do Campeonato Municipal 2025">
+                        </div>
+                        <div class="table__title">
+                            <h2>Campeonato Municipal 2025</h2>
+                            <p>Estádio Municipal - Domingo</p>
+                            <h3>26 | 10 - 16:00</h3>
+                        </div>
+                        <div class="departure__container">
+                            <figure class="team__container">
+                                <img src="images/teams/vilanova.png" alt="Time Vila Nova">
+                                <figcaption>Vila Nova</figcaption>
+                            </figure>
+                            <figure class="scoreboard" role="status" aria-live="polite">
+                                <span class="score">5</span>
+                                <span class="divider">X</span>
+                                <span class="score">0</span>
+                            </figure>
+                            <figure class="team__container">
+                                <img src="images/teams/lagoadomato.png" alt="Time Lagoa do Mato">
+                                <figcaption>Lagoa do Mato</figcaption>
+                            </figure>
+                        </div>
+                        <div class="card__button">
+                            <a href="#classification" class="btn primary">
+                                <span class="group-label">Grupo A</span>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="swiper-slide">
+                    <article>
+                        <div class="highlights__image">
+                            <img class="card__logo" src="images/logo.png" alt="Logo do Campeonato Municipal 2025">
+                        </div>
+                        <div class="table__title">
+                            <h2>Campeonato Municipal 2025</h2>
+                            <p>Estádio Municipal - Domingo</p>
+                            <h3>26 | 10 - 16:00</h3>
+                        </div>
+                        <div class="departure__container">
+                            <figure class="team__container">
+                                <img src="images/teams/vilanova.png" alt="Time Vila Nova">
+                                <figcaption>Vila Nova</figcaption>
+                            </figure>
+                            <figure class="scoreboard" role="status" aria-live="polite">
+                                <span class="score">5</span>
+                                <span class="divider">X</span>
+                                <span class="score">0</span>
+                            </figure>
+                            <figure class="team__container">
+                                <img src="images/teams/lagoadomato.png" alt="Time Lagoa do Mato">
+                                <figcaption>Lagoa do Mato</figcaption>
+                            </figure>
+                        </div>
+                        <div class="card__button">
+                            <a href="#classification" class="btn primary">
+                                <span class="group-label">Grupo A</span>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+                
+                <!-- Slide 3 -->
+                <div class="swiper-slide">
+                    <article>
+                        <div class="highlights__image">
+                            <img class="card__logo" src="images/logo.png" alt="Logo do Campeonato Municipal 2025">
+                        </div>
+                        <div class="table__title">
+                            <h2>Campeonato Municipal 2025</h2>
+                            <p>Estádio Municipal - Domingo</p>
+                            <h3>26 | 10 - 16:00</h3>
+                        </div>
+                        <div class="departure__container">
+                            <figure class="team__container">
+                                <img src="images/teams/vilanova.png" alt="Time Vila Nova">
+                                <figcaption>Vila Nova</figcaption>
+                            </figure>
+                            <figure class="scoreboard" role="status" aria-live="polite">
+                                <span class="score">5</span>
+                                <span class="divider">X</span>
+                                <span class="score">0</span>
+                            </figure>
+                            <figure class="team__container">
+                                <img src="images/teams/lagoadomato.png" alt="Time Lagoa do Mato">
+                                <figcaption>Lagoa do Mato</figcaption>
+                            </figure>
+                        </div>
+                        <div class="card__button">
+                            <a href="#classification" class="btn primary">
+                                <span class="group-label">Grupo A</span>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Slide 4 -->
+            </div>
+
+            <!-- Paginação do Swiper -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- End of Highlights -->
+
+    <!-- Clients -->
+    <section id="clients" class="clients" aria-label="Apoiadores do Campeonato Municipal de Santa Cruz - PE 2025">
+        <header class="clients__content container" data-aos="fade-in">
+            <h2>Apoiadores</h2>
+            <p>O Campeonato Municipal de Santa Cruz - PE 2025 é mais forte graças aos nossos apoiadores. Juntos, estamos fazendo o futebol local brilhar!</p>
+        </header>
+        <div class="container clients__container">
+            <div><img id="img-1" src="" alt=""></div>
+            <div><img id="img-2" src="" alt=""></div>
+            <div><img id="img-3" src="" alt=""></div>
+            <div><img id="img-4" src="" alt=""></div>
+        </div>
+    </section>
+    <!-- End of Clients -->
+
+    <!-- Downloads -->
+    <section class="downloads" aria-labelledby="downloads-title">
+        <div class="container downloads__container">
+    
+            <header class="downloads__content" data-aos="fade-in">
+                <h2 id="downloads-title">Downloads</h2>
+                <p>
+                    Disponibilizamos aqui a tabela oficial e o quadro de jogos completo, com todas as informações que você precisa para acompanhar cada rodada do campeonato. Baixe agora e fique por dentro de tudo!
+                </p>
+            </header>
+
+            <div class="cta">
+                <a href="./downloads/tabela.pdf" class="btn primary" download target="_blank" rel="noopener noreferrer" aria-label="Baixar tabela oficial do campeonato">
+                    Baixar Tabela
+                </a>
+                <a href="./downloads/quadro-de-jogos.pdf" class="btn primary" download target="_blank" rel="noopener noreferrer" aria-label="Baixar quadro completo de jogos do campeonato">
+                    Baixar Quadro de Jogos
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- End of Downloads -->
+
+  <!-- Classification / Groups -->
+  <section class="classification" id="classification" aria-labelledby="classification-title">
+      <header class="classification__content" data-aos="fade-in">
+          <h1 id="classification-title">Grupos / Classificação</h1>
+          <p>Acompanhe a classificação atualizada do campeonato, com informações detalhadas sobre o desempenho de cada equipe a cada rodada.</p>
+      </header>
+
+      <div class="container container__classification">
+          <form>
+              <label for="selectGroup">Selecione a letra do grupo:</label>
+              <select name="select__group" id="selectGroup" class="select__group" aria-label="Selecione a letra do grupo">
+                  <option value="A">A</option>
+                  <option value="B">B</option>
+                  <option value="C">C</option>
+              </select>
+          </form>
+
+          <h2>Grupo <span class="group__letter" aria-live="polite"></span></h2>
+
+          <table class="classification__table">
+              <thead>
+                  <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">EQUIPE</th>
+                      <th scope="col">PG</th>
+                      <th scope="col">J</th>
+                      <th scope="col">V</th>
+                      <th scope="col">E</th>
+                      <th scope="col">D</th>
+                      <th scope="col">GP</th>
+                      <th scope="col">GC</th>
+                      <th scope="col">SG</th>
+                  </tr>
+              </thead>
+              <tbody class="body__classification">
+                  <tr></tr>
+                  <tr></tr>
+                  <tr></tr>
+                  <tr></tr>
+              </tbody>
+          </table>
+      </div>
+  </section>
+  <!-- End of Classification / Groups -->
+
+  <!-- First Phase -->
+    <section id="firstPhase" aria-labelledby="firstPhase-title">
+        <div class="container firstPhase__container">
+            <header class="firstPhase__content" data-aos="fade-in">
+                <h1 id="firstPhase-title">Primeira Fase</h1>
+                <p>Acompanhe todos os jogos da primeira fase do Campeonato Municipal, com datas, horários, locais e resultados atualizados para você não perder nenhum detalhe da competição.</p>
+            </header>
+            <div class="table__games" aria-live="polite"></div>
+        </div>
+    </section>
+    <!-- End of First Phase -->
+
+  <!-- Quarters -->
+     <section id="quarters">
+        <div class="container quarters__container">
+            <header class="quarters__content" data-aos="fade-in">
+                <h1>Quartas de Final</h1>
+                <p>Acompanhe todos os confrontos das quartas de final e fique por dentro dos times que seguem na disputa pelo título!</p>
+            </header>
+
+            <div class="cards">
+                <!-- Jogo 1 -->
+                <article class="container__games">
+                    <header class="table__title">
+                        <img src="images/logo.png" alt="Campeonato Municipal 2025">
+                        <h2>Campeonato Municipal 2025</h2>
+                        <p>Estádio Municipal / Domingo</p>
+                        <time datetime="2025-01-04T16:00">04 | 01 - 16:00</time>
+                    </header>
+
+                    <div class="departure__container">
+                        <figure class="team__container">
+                            <img src="images/teams/escudo.png" alt="Escudo da equipe mandante">
+                            <figcaption>1º Grupo A</p>
+                        </figure>
+
+                        <figure class="scoreboard" role="presentation">
+                            <span class="score" aria-hidden="true"></span>
+                            <span class="divider">X</span>
+                            <span class="score" aria-hidden="true"></span>
+                        </figure>
+
+                        <figure class="team__container">
+                            <img src="images/teams/escudo.png" alt="Escudo da equipe mandante">
+                            <figcaption>1º Grupo A</p>
+                        </figure>
+                    </div>
+
+                    <div class="card__button">
+                        <button class="btn primary" aria-label="Detalhes do Jogo 1">Jogo 1</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- End of Quarters -->
+
+  <!-- Semifinais -->
+    <section class="semifinais" id="semifinais">
+        <header class="semifinais__content" data-aos="fade-in">
+            <h1>Semifinais</h1>
+            <p>Acompanhe as semifinais do campeonato e descubra quais equipes vão garantir uma vaga na grande final!</p>
+        </header>
+
+        <ul class="semifinais__categories" role="tablist">
+            <li class="active" role="tab" aria-selected="true" data-filter="*">Todos os jogos</li>
+            <li role="tab" aria-selected="false" data-filter=".going">Jogos de ida</li>
+            <li role="tab" aria-selected="false" data-filter=".back">Jogos de volta</li>
+        </ul>
+
+        <div class="container semifinais__container">
+            <!-- Jogo 1 -->
+            <article class="semifinal mix going" data-order="1">
+                <header class="table__title">
+                    <img src="images/logo.png" alt="Campeonato Municipal 2025">
+                    <h2>Campeonato Municipal 2025</h2>
+                    <p>Estádio Municipal / Domingo</p>
+                    <time datetime="2025-01-18T16:00">18 | 01 - 16:00</time>
+                </header>
+
+                <div class="departure__container">
+                    <figure class="team__container">
+                        <img src="images/teams/escudo.png" alt="Escudo da equipe mandante">
+                        <figcaption>Venc jogo 01</p>
+                    </figure>
+
+                    <figure class="scoreboard" role="presentation">
+                        <span class="score" aria-hidden="true"></span>
+                        <span class="divider">X</span>
+                        <span class="score" aria-hidden="true"></span>
+                    </figure>
+
+                    <figure class="team__container">
+                        <img src="images/teams/escudo.png" alt="Escudo da equipe visitante">
+                        <figcaption>Venc jogo 04</p>
+                    </figure>
+                </div>
+
+                <div class="card__button">
+                    <button class="btn primary" aria-label="Detalhes do Jogo 1">Jogo 1</button>
+                </div>
+            </article>
+
+            <!-- Jogo 2 -->
+            <article class="semifinal mix going" data-order="2">
+                <header class="table__title">
+                    <img src="images/logo.png" alt="Campeonato Municipal 2025">
+                    <h2>Campeonato Municipal 2025</h2>
+                    <p>Estádio Municipal / Domingo</p>
+                    <time datetime="2025-01-18T16:00">18 | 01 - 16:00</time>
+                </header>
+
+                <div class="departure__container">
+                    <figure class="team__container">
+                        <img src="images/teams/escudo.png" alt="Escudo da equipe mandante">
+                        <figcaption>Venc jogo 01</p>
+                    </figure>
+
+                    <figure class="scoreboard" role="presentation">
+                        <span class="score" aria-hidden="true"></span>
+                        <span class="divider">X</span>
+                        <span class="score" aria-hidden="true"></span>
+                    </figure>
+
+                    <figure class="team__container">
+                        <img src="images/teams/escudo.png" alt="Escudo da equipe visitante">
+                        <figcaption>Venc jogo 04</p>
+                    </figure>
+                </div>
+
+                <div class="card__button">
+                    <button class="btn primary" aria-label="Detalhes do Jogo 1">Jogo 1</button>
+                </div>
+            </article>
+
+            <!-- Jogo 3 -->
+            <article class="semifinal mix back" data-order="3">
+                <header class="table__title">
+                    <img src="images/logo.png" alt="Campeonato Municipal 2025">
+                    <h2>Campeonato Municipal 2025</h2>
+                    <p>Estádio Municipal / Domingo</p>
+                    <time datetime="2025-01-18T16:00">18 | 01 - 16:00</time>
+                </header>
+
+                <div class="departure__container">
+                    <figure class="team__container">
+                        <img src="images/teams/escudo.png" alt="Escudo da equipe mandante">
+                        <figcaption>Venc jogo 01</p>
+                    </figure>
+
+                    <figure class="scoreboard" role="presentation">
+                        <span class="score" aria-hidden="true"></span>
+                        <span class="divider">X</span>
+                        <span class="score" aria-hidden="true"></span>
+                    </figure>
+
+                    <figure class="team__container">
+                        <img src="images/teams/escudo.png" alt="Escudo da equipe visitante">
+                        <figcaption>Venc jogo 04</p>
+                    </figure>
+                </div>
+
+                <div class="card__button">
+                    <button class="btn primary" aria-label="Detalhes do Jogo 1">Jogo 1</button>
+                </div>
+            </article>
+
+            <!-- Jogo 4 -->
+            <article class="semifinal mix back" data-order="4">
+                <header class="table__title">
+                    <img src="images/logo.png" alt="Campeonato Municipal 2025">
+                    <h2>Campeonato Municipal 2025</h2>
+                    <p>Estádio Municipal / Domingo</p>
+                    <time datetime="2025-01-18T16:00">18 | 01 - 16:00</time>
+                </header>
+
+                <div class="departure__container">
+                    <figure class="team__container">
+                        <img src="images/teams/escudo.png" alt="Escudo da equipe mandante">
+                        <figcaption>Venc jogo 01</p>
+                    </figure>
+
+                    <figure class="scoreboard" role="presentation">
+                        <span class="score" aria-hidden="true"></span>
+                        <span class="divider">X</span>
+                        <span class="score" aria-hidden="true"></span>
+                    </figure>
+
+                    <figure class="team__container">
+                        <img src="images/teams/escudo.png" alt="Escudo da equipe visitante">
+                        <figcaption>Venc jogo 04</p>
+                    </figure>
+                </div>
+
+                <div class="card__button">
+                    <button class="btn primary" aria-label="Detalhes do Jogo 1">Jogo 1</button>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- End of Semifinais -->
+
+  <!-- Final -->
+    <section id="final">
+        <div class="container final__container">
+            <header class="final__content" data-aos="fade-in">
+                <h1>Final</h1>
+                <p>Chegou o momento mais aguardado do Campeonato Municipal! A grande final vai decidir quem levanta a taça, após uma trajetória de garra, emoção e muitos desafios. Acompanhe esse duelo decisivo, torça com força e viva toda a emoção da última e mais importante partida da competição!</p>
+            </header>
+
+            <div class="cards">
+                <article class="container__games">
+                    <header class="table__title">
+                        <img src="images/logo.png" alt="Campeonato Municipal 2025">
+                        <h2>Campeonato Municipal 2025</h2>
+                        <p>Estádio - Domingo</p>
+                        <time datetime="2025-02-01T16:00">01 | 02 - 16:00</time>
+                    </header>
+
+                    <div class="departure__container">
+                        <figure class="team__container">
+                            <img src="images/teams/escudo.png" alt="Escudo da equipe mandante">
+                            <figcaption>Venc Semi 01</figcaption> 
+                        </figure>
+
+                        <figure class="scoreboard" role="presentation">
+                            <span class="score" aria-hidden="true"></span>
+                            <span class="divider">X</span>
+                            <span class="score" aria-hidden="true"></span>
+                        </figure>
+
+                        <figure class="team__container">
+                            <img src="images/teams/escudo.png" alt="Escudo da equipe visitante">
+                            <figcaption>Venc Semi 02</p>
+                        </figure>
+                    </div>
+
+                    <div class="card__button">
+                        <button class="btn primary" aria-label="Detalhes da Final">Final</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- End of Final -->
+
+  <!-- End of Footer -->
+    <footer>
+        <div class="container footer__container">
+            <nav class="footer__menu" aria-label="Menu de navegação do rodapé">
+                <ul>
+                    <li><a href="#header">Início</a></li>
+                    <li><a href="#classification">Classificação</a></li>
+                    <li><a href="#firstPhase">Primeira Fase</a></li>
+                    <li><a href="#quarters">Quartas</a></li>
+                    <li><a href="#semifinais">Semifinais</a></li>
+                    <li><a href="#final">Final</a></li>
+                </ul>
+            </nav>
+
+            <nav class="footer__socials" aria-label="Redes sociais da Secretaria de Esportes">
+                <ul>
+                    <li>
+                        <a href="https://github.com/secretaria-esporte/campeonato-municipal-2025" target="_blank" rel="noopener noreferrer" aria-label="GitHub da Secretaria de Esportes">
+                            <i class="i uil:github-alt"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com/secretariade_esportestc" target="_blank" rel="noopener noreferrer" aria-label="Instagram da Secretaria de Esportes">
+                            <i class="i uil:instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <div class="footer__copyright">
+            <small>2025 Secretaria de Esportes &copy; Todos os Direitos Reservados.</small>
+        </div>
+    </footer>
+    <!-- End of Footer -->
+  
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <script src="./mix/dist/mixitup.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+      AOS.init({duration: 1500, offset: 80});
+  </script>
+  <script src="js/index.js" defer></script>
+</body>
+</html>
