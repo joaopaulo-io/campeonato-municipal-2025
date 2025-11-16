@@ -1,22 +1,56 @@
-/* ----- Swiper ----- */
-const swiper = new Swiper('.swiper', {
-  // Configurações principais
-  slidesPerView: 1, // mostra 1 slide por vez
-  spaceBetween: 20, // espaço entre slides
-  loop: true,       // looping infinito
+// Renderiza os jogos realizados a partir do JSON highlights
+fetch('./json-files/highlights.json')
+  .then(res => res.json())
+  .then(data => {
+    const swiperWrapper = document.querySelector('.swiper-wrapper');
 
-  // Paginação
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
+    data.forEach(jogo => {
+      const slide = document.createElement('div');
+      slide.classList.add('swiper-slide');
+      slide.innerHTML = `
+        <article>
+          <div class="highlights__image">
+            <img class="card__logo" src="images/logo.png" alt="Logo do Campeonato Municipal 2025">
+          </div>
+          <div class="table__title">
+            <h2>Campeonato Municipal 2025</h2>
+            <p>${jogo.estadio} - ${jogo.diaSemana}</p>
+            <h3>${jogo.data} - ${jogo.hora}</h3>
+          </div>
+          <div class="departure__container">
+            <figure class="team__container">
+              <img src="images/teams/${jogo.escudo_mandante}" alt="Escudo ${jogo.equipe_mandante}">
+              <figcaption>${jogo.equipe_mandante}</figcaption>
+            </figure>
+            <figure class="scoreboard" role="status" aria-live="polite">
+              <span class="score">${jogo.gols_mandante}</span>
+              <span class="divider">X</span>
+              <span class="score">${jogo.gols_visitante}</span>
+            </figure>
+            <figure class="team__container">
+              <img src="images/teams/${jogo.escudo_visitante}" alt="Escudo ${jogo.equipe_visitante}">
+              <figcaption>${jogo.equipe_visitante}</figcaption>
+            </figure>
+          </div>
+          <div class="card__button">
+            <a href="#classification" class="btn primary">Grupo ${jogo.grupo}</a>
+          </div>
+        </article>
+      `;
+      swiperWrapper.appendChild(slide);
+    });
 
-  // Animação automática
-  autoplay: {
-    delay: 5000,
-    disableOnInteraction: false,
-  },
-});
+    // Inicializar o Swiper depois de criar todos os slides
+    new Swiper('.swiper', {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      loop: data.length > 1, // loop só se houver mais de 1 slide
+      pagination: { el: '.swiper-pagination', clickable: true },
+      autoplay: { delay: 5000, disableOnInteraction: false },
+    });
+  })
+  .catch(err => console.error('Erro ao carregar highlights.json:', err));
+
 
 /* ----- Menu de Navegação (Telas pequenas) ----- */
 const navMenu = document.querySelector('.nav__menu');
