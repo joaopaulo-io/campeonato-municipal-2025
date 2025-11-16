@@ -53,7 +53,8 @@ Você pode visualizar o projeto funcionando diretamente pelo **GitHub Pages**:
 │   ├── firstPhase.json
 │   ├── groupA.json
 │   ├── groupB.json
-│   └── groupC.json
+|   ├── groupC.json
+│   └── highlights.json
 │
 ├── mix/
 │   └── [arquivos da biblioteca MixItUp]
