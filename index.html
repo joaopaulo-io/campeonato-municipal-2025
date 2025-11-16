@@ -622,13 +622,17 @@
     </footer>
     <!-- End of Footer -->
   
-  <!-- Scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
-  <script src="./mix/dist/mixitup.min.js"></script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-      AOS.init({duration: 1500, offset: 80});
-  </script>
-  <script src="js/index.js" defer></script>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="./mix/dist/mixitup.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1500, // duração da animação
+            offset: 80,     // quando começar a animação
+            once: true      // animação acontece apenas 1 vez
+        });
+    </script>
+    <script src="js/index.js" defer></script>
 </body>
 </html>
