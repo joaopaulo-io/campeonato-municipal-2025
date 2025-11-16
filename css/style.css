@@ -1257,7 +1257,7 @@ footer {
         width: 5rem;
     }
 
-   .footer__menu {
+   .footer__menu ul {
         flex-direction: column;
         grid-area: 1.6rem;
         align-items: center;
