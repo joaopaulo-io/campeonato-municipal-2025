@@ -82,9 +82,7 @@ Você pode visualizar o projeto funcionando diretamente pelo **GitHub Pages**:
 
 ## 🎥 Preview
 
-#### 💻 Desktop
-
-#### 📱 Mobile
+https://github.com/user-attachments/assets/465eed18-e324-4487-938a-72dba587bb00
 
 ---
 
