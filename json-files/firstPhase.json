@@ -107,8 +107,8 @@
         "equipe_visitante": "24 HORAS",
         "escudo_mandante": "vilanova.png",
         "escudo_visitante": "24horas.png",
-        "gols_mandante": "",
-        "gols_visitante": "",
+        "gols_mandante": "0",
+        "gols_visitante": "0",
         "partida": "VILA NOVA x 24 HORAS"
     },
     {
@@ -123,8 +123,8 @@
         "equipe_visitante": "DUZOME",
         "escudo_mandante": "atleticoportela.png",
         "escudo_visitante": "duzome.png",
-        "gols_mandante": "",
-        "gols_visitante": "",
+        "gols_mandante": "3",
+        "gols_visitante": "2",
         "partida": "ATLÉTICO PORTELA x DUZOME"
     },
     {
